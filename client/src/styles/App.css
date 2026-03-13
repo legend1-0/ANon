@@ -1,0 +1,75 @@
+/* General */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+/* Home Page */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.home-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.home-button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Chat Page */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+}
+.chat-room {
+  margin-bottom: 10px;
+}
+.chat-expired {
+  color: red;
+  font-weight: bold;
+}
+
+/* ChatBox */
+.chatbox-container {
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.chatbox-message {
+  margin-bottom: 6px;
+}
+
+/* ChatInput */
+.chatinput-container {
+  display: flex;
+}
+.chatinput-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+.chatinput-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
